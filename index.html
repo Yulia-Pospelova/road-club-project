@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Road Club | Шоссе, ТТ и Грэвел</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__item">
+            <a href="#highway" class="header__link">Покрытия и градиенты</a>
+          </li>
+          <li class="header__item">
+            <a href="#bikes" class="header__link">Велосипеды</a>
+          </li>
+          <li class="header__item">
+            <a href="#trainings" class="header__link">Тренировки</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="intro__content">
+          <h1 class="intro__title">Шоссе, ТТ и Грэвел</h1>
+          <p class="intro__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+          <a href="#" class="intro__button">Подробнее</a>
+          <div class="intro__info">
+            <p class="intro__model-name">Cannondale Systemsix</p>
+            <div class="intro__line"></div>
+          </div>
+        </div>
+        <div class="intro__visual">
+          <img src="./images/forest.jpg" width="610" height="836" alt="Горная дорога" class="intro__bg-image">
+          <div class="intro__bike-card">
+            <img src="./images/bike.png" width="340" height="260" alt="Велосипед Cannondale Systemsix на светлом фоне" class="intro__bike-image"> 
+          </div>
+        </div>
+      </section>  
+      <section class="inspiration">
+        <h2 class="visually-hidden">Мотивация</h2>
+        <div class="inspiration__image">
+          <img src="./images/cyclist.jpg" width="650" height="460" alt="Велогонщик на трассе" class="inspiration__photo">
+        </div>
+        <div class="inspiration__text">
+          <blockquote class="inspiration__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
+          <div class="inspiration__author">
+            <p class="inspiration__name">Эдди Меркс</p>
+            <p class="inspiration__status">Велогонщик</p>
+          </div>
+        </div>
+      </section> 
+      <section class="highway" id="highway">
+        <h2 class="highway__title">Шоссе</h2>
+        <p class="highway__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="highway__slider">
+          <div class="highway__image-wrapper">
+            <img src="./images/road-1.jpg" width="650" height="400" alt="Шоссейная дорога в горах" class="highway__image">
+            <div class="highway__icon">
+              <img src="./images/graph.svg" width="100" height="40" alt="true">
+            </div>
+          </div>
+          <div class="highway__image-wrapper">
+            <img src="./images/road-2.jpg" width="650" height="400" alt="Велогонщик на лесной дороге" class="highway__image">
+          </div>
+        </div>
+        <div class="highway__arrows">
+          <button class="highway__arrow highway__arrow_left" type="button" aria-label="Предыдущий слайд">
+            <img src="./images/arrow-left.svg" width="50" height="50" alt="">
+          </button>
+          <button class="highway__arrow highway__arrow_right" type="button" aria-label="Следующий слайд">
+            <img src="./images/arrow-right.svg" width="50" height="50" alt="">
+          </button>
+        </div>
+      </section>
+      <section class="bikes" id="bikes">
+        <div class="bikes__header">
+          <h2 class="bikes__title">Велосипеды</h2>
+          <nav class="bikes__nav">
+            <ul class="bikes__type-list">
+              <li class="bikes__type-item">
+                <button class="bikes__type-button bikes__type-button_active" type="button" aria-pressed="true">Шоссе</button>
+              </li>
+              <li class="bikes__type-item">
+                <button class="bikes__type-button" type="button" aria-pressed="false">Грэвел</button>
+              </li>
+              <li class="bikes__type-item">
+                <button class="bikes__type-button" type="button" aria-pressed="false">TT</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="bikes__list">
+          <li>
+            <article class="bikes__card">
+              <div class="bikes__image-wrapper">
+                <img src="./images/bike-1.png" width="380" height="380" alt="Cervelo Caledonia-5" class="bikes__image">
+              </div>
+              <h3 class="bikes__model">Cervelo Caledonia-5</h3>
+            </article>
+          </li>
+          <li>
+            <article class="bikes__card">
+              <div class="bikes__image-wrapper">
+                <img src="./images/bike-2.png" width="380" height="380" alt="Cannondale Systemsix Himod" class="bikes__image">
+              </div>
+              <h3 class="bikes__model">Cannondale Systemsix Himod</h3>
+            </article>
+          </li>
+          <li>
+            <article class="bikes__card">
+              <div class="bikes__image-wrapper">
+                <img src="./images/bike-3.png" width="380" height="380" alt="Trek Domane SL-7" class="bikes__image">
+              </div>
+              <h3 class="bikes__model">Trek Domane SL-7</h3>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="trainings" id="trainings">
+        <div class="trainings__content">
+          <div>
+            <h2 class="trainings__title">Тренировки</h2>
+            <p class="trainings__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+          </div>
+          <nav class="trainings__links" aria-label="Ссылки на внешние сервисы">
+            <a href="https://www.strava.com/" class="trainings__link" target="_blank" rel="noopener">Strava<span class="visually-hidden">(откроется в новом окне)</span></a>
+            <a href="https://www.komoot.com/" class="trainings__link" target="_blank" rel="noopener">Komoot<span class="visually-hidden">(откроется в новом окне)</span></a>
+          </nav>
+        </div>
+        <div class="trainings__image-container">
+          <img src="./images/training-road.jpg" width="580" height="460" alt="Извилистая дорога среди деревьев" class="trainings__image">
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__subscribe">
+        <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+        <form class="footer__form" action="#" method="post">
+          <fieldset class="footer__fieldset">
+            <legend class="visually-hidden">Форма подписки на новости</legend>
+            <div class="footer__input-wrapper">
+              <label for="email-input" class="visually-hidden">Введите ваш e-mail</label>
+              <input 
+                type="email" 
+                id="email-input" 
+                name="user_email" 
+                class="footer__input" 
+                placeholder="Ваш e-mail" 
+                required
+              >
+              <button type="submit" class="footer__submit-button" aria-label="Подписаться на рассылку">ОК</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© Road Club 2021</p>
+        <div class="footer__theme-switch" role="group" aria-label="Переключатель цветовой темы">
+          <img src="./images/sun.svg" alt="Светлая тема" class="footer__icon footer__icon_sun">
+          <div class="footer__toggle" role="switch" aria-checked="false" tabindex="0">
+            <div class="footer__toggle-circle"></div>
+          </div>
+          <img src="./images/moon.svg" alt="Темная тема" class="footer__icon footer__icon_moon">
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
